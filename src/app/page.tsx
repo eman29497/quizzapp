@@ -59,7 +59,7 @@ export default function Home() {
   };
   return (
     <div className="bg-gray-50 min-h-screen flex flex-col items-center p-10">
-      <h1 className="text-5xl font-extrabold text-sky-500 mb-6">Test Your Mind</h1>
+      <h1 className="text-3xl md:text-5xl px-4 font-extrabold text-sky-500 mb-6">Test Your Mind</h1>
       
       {gameOver || userAnswers.length === 10 ? (
         <button 
